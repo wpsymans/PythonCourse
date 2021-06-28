@@ -82,6 +82,6 @@ theDict = {
 print(theDict["brand"])
 print(type(theDict))
 
-#Sixth Scenario - string formatting
+Sixth Scenario - string formatting
 aNumber = 10
-print("This is the number " + aNumber)
+print("This is the number " + aNumber) 
