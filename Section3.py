@@ -75,12 +75,12 @@ print(type(aSet))
 # A set is a collection which is both unordered and unindexed.
 # The data type can be defined as a set using curley braces
 
-theDict = {
+thedict = {
     "brand":"jeep",
     "model":"wrangler"
 }
-print(theDict["brand"])
-print(type(theDict))
+print(thedict["brand"])
+print(type(thedict))
 
 Sixth Scenario - string formatting
 aNumber = 10
