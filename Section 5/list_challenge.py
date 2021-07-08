@@ -12,9 +12,10 @@ available_parts = ['Computer','Monitor','Keyboard']
 while current_choice != "Checkout":
     print("Here is a list of available parts:")
     
-    for available_part in available_parts:
-        print("")
-        print(format(available_parts.index(available_part)) + " : " + available_part)
+#using enumerate to get the index position
+
+    for number, available_part in enumerate(available_parts):
+        print("{0} : {1}".format(number  + 1, available_part))
     
     print("You can select a part (a) or add a new part (b) or quit(Checkout)")
     menu_option = input()
